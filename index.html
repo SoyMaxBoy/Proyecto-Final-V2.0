@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="img/Logos/logo.png" class="NavLogo" alt=""
@@ -37,7 +37,130 @@
         </div>
       </nav>
     </header>
+    <div class="container">
+      <div class="container-script">
+        <script
+          class="Principallottie"
+          src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+        ></script>
+        <lottie-player
+          src="https://assets5.lottiefiles.com/packages/lf20_kyu7xb1v.json"
+          background="transparent"
+          speed="0.5"
+          style="width: 100%; height: 100%; margin: 0 auto"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
 
+      <div class="container-card">
+        <div class="card">
+          <img src="img/Iconos/curve.png" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title text-center">Diseños Personalizados</h5>
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/Iconos/web-design.png" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title text-center">Dseños Optimizados</h5>
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/Iconos/design.png" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title text-center">Diseños Creativos</h5>
+            <p class="card-text text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-perfil">
+        <div class="row">
+          <div class="col-1">
+            <h1 class="perfil-nombre">
+              MI NOMBRE ES MAXWELL MARTE <br />
+              SOY DISEÑADOR
+            </h1>
+            <br />
+            <p class="perfil-texto">
+              Amante del arte, la creación y la tecnología <br />
+              Con un excelente manejo de Photoshop, Illustrator, Cpanel,<br />
+              Desarrollo de páginas web, Optimización web, Correos <br />
+              Corporativos y Posicionamiento (SEO).
+              <br />
+              <br />
+              Actualmente trabajo en todas estas áreas en un grupo de <br />
+              empresas en el Caribe utilizando todas mis habilidades.
+            </p>
+          </div>
+          <div class="col-2">
+            <img
+              class="perfil-imagen container"
+              src="img/Iconos/MaxMarte.png"
+            />
+          </div>
+          <div class="perfil-conocimiento">
+            <p>Conocimientos:</p>
+            <div class="Perfil-conocmiento-row">
+              <div class="col-1">
+                <h4 class="text-center">100%</h4>
+                <img
+                  class="perfil-conocimiento-icono"
+                  src="img/Iconos/psd.png"
+                />
+              </div>
+              <div class="col-2">
+                <h4 class="text-center">100%</h4>
+                <img
+                  class="perfil-conocimiento-icono"
+                  src="img/Iconos/ai.png"
+                />
+              </div>
+              <div class="col-3">
+                <h4 class="text-center">100%</h4>
+                <img
+                  class="perfil-conocimiento-icono"
+                  src="img/Iconos/html.png"
+                />
+              </div>
+              <div class="col-4">
+                <h4 class="text-center">100%</h4>
+                <img
+                  class="perfil-conocimiento-icono"
+                  src="img/Iconos/css-3.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Div de Container-->
+    </div>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector("navbar");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 0) {
+          nav.classList.add("bg-primary", "shadow");
+        } else {
+          nav.classList.remove("bg-dark", "shadow");
+        }
+      });
+    </script>
   </body>
 </html>
