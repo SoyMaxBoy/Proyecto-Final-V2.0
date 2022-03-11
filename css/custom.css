@@ -11292,6 +11292,7 @@ textarea.form-control-lg {
   }
   .container .container-perfil .card-perfil-mobile .card-body .card-text {
     color: #0066ad;
+    line-height: 20px;
   }
   .container .container-perfil .card-perfil-mobile img {
     width: 50%;
