@@ -45,7 +45,7 @@ $secondary: blue;
   }
   .container-perfil {
     .row {
-      .col-1 {
+      .col-1-o {
         .perfil-nombre {
           color: #0066ad;
           font-size: 55px;
@@ -59,7 +59,7 @@ $secondary: blue;
 
         width: 70%;
       }
-      .col-2 {
+      .col-2-o {
         .perfil-imagen {
           width: 100%;
           display: block;
@@ -70,6 +70,9 @@ $secondary: blue;
         }
         width: 100% - 70%;
       }
+    }
+    .card-perfil-mobile {
+      display: none;
     }
     .perfil-conocimiento {
       .Perfil-conocmiento-row {
@@ -104,6 +107,31 @@ $secondary: blue;
       font-weight: 600;
     }
     margin-top: 10%;
+  }
+  .empresas {
+    .row {
+      .col-1 {
+        width: 33.33%;
+      }
+      .col-2 {
+        width: 33.33%;
+      }
+      .col-3 {
+        width: 33.33%;
+      }
+      .empresas-imagen {
+        margin: 10%;
+        width: 50%;
+        align-items: center;
+      }
+
+      display: flex;
+    }
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #0066ad;
+    font-size: 40px;
+    font-weight: 500;
   }
 }
 
@@ -141,6 +169,76 @@ $secondary: blue;
           font-size: 10px;
         }
         padding-top: 0%;
+      }
+    }
+    .container-perfil {
+      .perfil-nombre {
+        display: none;
+      }
+      .perfil-texto {
+        display: none;
+      }
+      .col-2-o {
+        display: none;
+      }
+      .card-perfil-mobile {
+        .card-body {
+          .card-nombre {
+            color: #0066ad;
+            font-weight: 600;
+          }
+          .card-text {
+            color: #0066ad;
+          }
+        }
+        img {
+          width: 50%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        margin: 0%;
+        display: block;
+      }
+      .perfil-conocimiento {
+        .Perfil-conocmiento-row {
+          .col-1 {
+            width: 25%;
+          }
+          .col-2 {
+            width: 25%;
+          }
+          .col-3 {
+            width: 25%;
+          }
+          .col-4 {
+            width: 25%;
+          }
+
+          h4 {
+            font-size: 15px;
+            font-weight: 600;
+          }
+
+          .perfil-conocimiento-icono {
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 3%;
+      }
+      margin-top: 10%;
+    }
+    .empresas {
+      font-size: 20px;
+      .row {
+        .empresas-imagen {
+          width: 70%;
+        }
       }
     }
   }

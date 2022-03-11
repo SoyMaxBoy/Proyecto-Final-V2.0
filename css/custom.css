@@ -11159,29 +11159,32 @@ textarea.form-control-lg {
 .container .container-perfil {
   margin-top: 10%;
 }
-.container .container-perfil .row .col-1 {
+.container .container-perfil .row .col-1-o {
   width: 70%;
 }
-.container .container-perfil .row .col-1 .perfil-nombre {
+.container .container-perfil .row .col-1-o .perfil-nombre {
   color: #0066ad;
   font-size: 55px;
   font-weight: 600;
 }
-.container .container-perfil .row .col-1 .perfil-texto {
+.container .container-perfil .row .col-1-o .perfil-texto {
   font-size: 30px;
   font-weight: 400;
   color: #0066ad;
 }
-.container .container-perfil .row .col-2 {
+.container .container-perfil .row .col-2-o {
   width: 30%;
 }
-.container .container-perfil .row .col-2 .perfil-imagen {
+.container .container-perfil .row .col-2-o .perfil-imagen {
   width: 100%;
   display: block;
   margin-top: 40%;
   margin-bottom: 20%;
   margin-left: auto;
   margin-right: auto;
+}
+.container .container-perfil .card-perfil-mobile {
+  display: none;
 }
 .container .container-perfil .perfil-conocimiento {
   color: #0066ad;
@@ -11211,6 +11214,30 @@ textarea.form-control-lg {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.container .empresas {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  color: #0066ad;
+  font-size: 40px;
+  font-weight: 500;
+}
+.container .empresas .row {
+  display: flex;
+}
+.container .empresas .row .col-1 {
+  width: 33.33%;
+}
+.container .empresas .row .col-2 {
+  width: 33.33%;
+}
+.container .empresas .row .col-3 {
+  width: 33.33%;
+}
+.container .empresas .row .empresas-imagen {
+  margin: 10%;
+  width: 50%;
+  align-items: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -11242,6 +11269,68 @@ textarea.form-control-lg {
   }
   .container .container-card .card-body p {
     font-size: 10px;
+  }
+  .container .container-perfil {
+    margin-top: 10%;
+  }
+  .container .container-perfil .perfil-nombre {
+    display: none;
+  }
+  .container .container-perfil .perfil-texto {
+    display: none;
+  }
+  .container .container-perfil .col-2-o {
+    display: none;
+  }
+  .container .container-perfil .card-perfil-mobile {
+    margin: 0%;
+    display: block;
+  }
+  .container .container-perfil .card-perfil-mobile .card-body .card-nombre {
+    color: #0066ad;
+    font-weight: 600;
+  }
+  .container .container-perfil .card-perfil-mobile .card-body .card-text {
+    color: #0066ad;
+  }
+  .container .container-perfil .card-perfil-mobile img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .container-perfil .perfil-conocimiento {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 3%;
+  }
+  .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .col-1 {
+    width: 25%;
+  }
+  .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .col-2 {
+    width: 25%;
+  }
+  .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .col-3 {
+    width: 25%;
+  }
+  .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .col-4 {
+    width: 25%;
+  }
+  .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row h4, .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .perfil-conocimiento-icono {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .empresas {
+    font-size: 20px;
+  }
+  .container .empresas .row .empresas-imagen {
+    width: 70%;
   }
 }
 .navbar-light .navbar-nav .nav-link {
