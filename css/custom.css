@@ -11190,6 +11190,7 @@ textarea.form-control-lg {
   color: #0066ad;
   font-size: 38px;
   font-weight: 600;
+  width: 100%;
 }
 .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row {
   display: flex;
@@ -11313,7 +11314,7 @@ textarea.form-control-lg {
   .container .container-perfil .perfil-conocimiento {
     font-size: 20px;
     font-weight: 600;
-    margin-left: 3%;
+    padding-left: 1.5%;
   }
   .container .container-perfil .perfil-conocimiento .Perfil-conocmiento-row .col-1 {
     width: 25%;
