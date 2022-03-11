@@ -11345,6 +11345,10 @@ textarea.form-control-lg {
     width: 70%;
   }
 }
+footer {
+  background-color: #0066ad;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #0066ad;
 }
