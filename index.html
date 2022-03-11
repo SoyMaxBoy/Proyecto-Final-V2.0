@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/Iconos/Icono.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Inicio | Maxwell Marte</title>
   </head>
   <body>
     <header>
@@ -28,8 +33,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Servicios</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+              <a class="nav-link" href="servicios/index.html">Servicios</a>
               <a class="nav-link" href="#">contacto</a>
               <a class="nav-link" href="#">Portafolio</a>
             </div>
@@ -223,17 +230,51 @@
       <!--Div de Container-->
     </div>
 
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var nav = document.querySelector("navbar");
+    <footer class="bg-primary text-center text-white">
+      <!-- Copyright -->
+      <div class="Footer-body">
+        <div class="footer-social">
+          <section>
+            <!-- Facebook -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="https://www.facebook.com/Davidmarte123/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
 
-      window.addEventListener("scroll", function () {
-        if (window.pageYOffset > 0) {
-          nav.classList.add("bg-primary", "shadow");
-        } else {
-          nav.classList.remove("bg-dark", "shadow");
-        }
-      });
-    </script>
+            <!-- Instagram -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="https://www.instagram.com/davidmarte345/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Github -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="https://github.com/SoyMaxBoy"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+        </div>
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2022 Copyright:
+          <a class="text-white" href="https://proyecto.maxwellmarte.com/"
+            >Maxwellmarte.com</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
