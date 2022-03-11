@@ -11153,6 +11153,9 @@ textarea.form-control-lg {
   width: 20%;
   margin: 5% auto;
 }
+.container .container-card .card .card-body .card-title {
+  color: #0066ad;
+}
 .container .container-card .card .card-body .btn {
   margin: 0% auto;
 }
@@ -11265,7 +11268,7 @@ textarea.form-control-lg {
     padding-top: 0%;
   }
   .container .container-card .card-body h5, .container .container-card .card-body .h5 {
-    font-size: 16px;
+    font-size: 15px;
     color: #0066ad;
   }
   .container .container-card .card-body p {
