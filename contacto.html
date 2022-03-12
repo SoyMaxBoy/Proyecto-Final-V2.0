@@ -10,15 +10,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css\custom.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
-    <title>Document</title>
+    <title>Contacto | Maxwell Marte</title>
   </head>
   <body>
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="index.html"
             ><img src="img/Logos/logo.png" class="NavLogo" alt=""
           /></a>
           <button
@@ -37,16 +37,73 @@
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Inicio</a
               >
-              <a class="nav-link" href="servicios\index.html">Servicios</a>
-              <a class="nav-link" href="#">contacto</a>
-              <a class="nav-link" href="#">Portafolio</a>
+              <a class="nav-link" href="servicios.html">Servicios</a>
+              <a class="nav-link" href="contacto.html">contacto</a>
+              <a class="nav-link" href="portafolio.html">Portafolio</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <div class="container">
-      <!--Div de Container-->
+      <div class="espacio"></div>
+      <div class="contenedor">
+        <form id="contact" action="" method="post">
+          <h1>Contactanos</h1>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player
+            src="https://assets1.lottiefiles.com/packages/lf20_u25cckyh.json"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 300px; margin: 0 auto"
+            loop
+            autoplay
+          ></lottie-player>
+          <h4>¡Escreibenos hoy y obtenga una respuesta en 24 horas!</h4>
+          <fieldset>
+            <input
+              placeholder="Coloca Tu Nombre"
+              type="text"
+              tabindex="1"
+              required
+              autofocus
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Coloca Tu Correo Electronico"
+              type="email"
+              tabindex="2"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Coloca Tu Telefono"
+              type="tel"
+              tabindex="3"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <textarea
+              placeholder="Escribe en que podemos ayudarte...."
+              tabindex="5"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Enviando"
+            >
+              Enviar
+            </button>
+          </fieldset>
+        </form>
+      </div>
     </div>
 
     <footer class="bg-primary text-center text-white">
